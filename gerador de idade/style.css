@@ -1,0 +1,39 @@
+@charset 'UTF-8';
+
+
+
+body{
+    background-color: lightblue;
+    font: normal bold 1.6em sans-serif;    
+}
+section {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: auto;
+    width: 700px;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.254);
+}
+h1 {
+    padding-top: 50px;
+    text-align: center;
+
+}
+#txtidade{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    padding: 10px;
+    font-size: 0.6em;
+}
+img {
+    padding-top: 15px;
+    display: block;
+    margin: auto;
+}
+
+footer > P {
+    max-height: 100%;
+    text-align: end;
+}
