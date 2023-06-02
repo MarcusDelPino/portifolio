@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Formulário de cadastro</h1>
+        <!-- &#9989 -->
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letras e/ou números</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+
+        <form action="" class="form">
+
+            <label for="input-teste-1">Nome:</label>
+            <input type="text" id="input-nome"  class="full">
+            <div class="erroNome"></div>
+
+            <label for="input-teste-2">Sobrenome:</label>
+            <input type="text" id="input-sobrenome"  class="full">
+            <div class="erroSobrenome"></div>
+            
+            <label for="input-teste-3">CPF:</label>
+            <input type="text" id="input-cpf"  class="full">
+            <div class="erroCpf"></div>
+            
+            <label for="input-teste-4">Usuário:</label>
+            <input type="text" id="input-usuario"  class="full">
+            <div class="erroUsuario"></div>
+            
+            <label for="input-teste-4">Senha:</label>
+            <input type="password" id="input-senha"  class="full">
+            <div class="erroSenha"></div>
+            
+            <label for="input-teste-4">Confirmar senha:</label>
+            <input type="password" id="input-confirma-senha"  class="full">
+            <div class="erroConfirmaSenha"></div>
+            
+            <button class="btn"> Button
+            </button>
+
+        </form>
+
+
+
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
